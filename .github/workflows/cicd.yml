@@ -3,7 +3,6 @@ name: DEV - Deploy to Nomad Cluster
 on:
   push:
     #branches: [ develop,master ]
-    
 env:
   # Organization Secrets
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
